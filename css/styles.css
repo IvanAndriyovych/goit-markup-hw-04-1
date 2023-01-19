@@ -483,6 +483,13 @@ letter-spacing: 0.02em;
 
 .basis-main {
     background: #2E2F42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ) , url(../image/bgd-main/people-office\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
