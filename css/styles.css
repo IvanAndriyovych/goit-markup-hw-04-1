@@ -638,6 +638,7 @@ flex-grow: 0;
 
     padding-bottom: 120px;
     padding-top: 120px;
+    background: #F4F4FD;
 
 }
 
@@ -733,6 +734,14 @@ margin-bottom: 8px;
 
 
 /*--footer main page--*/
+
+
+.container-footer{
+
+    display: flex;
+    gap: 120px;
+    margin-left: 156px;
+}
 
 
 .footer-main-page {
