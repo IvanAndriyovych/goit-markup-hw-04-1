@@ -542,9 +542,10 @@ margin: 0 auto;
 
 .container-text-tape{
 
-    width: 1128px;
+    
 height: 224px;
 display: flex;
+margin-left: 156px;
 
 
 }
@@ -555,18 +556,22 @@ display: flex;
     
     
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+  
+    
     
    
 
 }
 .description1 {
+    margin-right: 24px;
 
     
 }
 
 
 .custom-item-strategy {
+ margin-right: 24px;
 
     
 }
@@ -666,6 +671,7 @@ flex-grow: 0;
  
     padding-bottom: 120px;
     padding-top: 120px;
+    
     
    
 }
