@@ -199,9 +199,18 @@ display: flex;
 
 .app:hover {
     background-color: #4D5AE5;
+   
     
-
 } 
+
+.app:hover{
+    background: #F4F4FD;
+    
+}
+
+
+
+
 
 
 
@@ -818,19 +827,21 @@ margin-bottom: 8px;
 }
 
 .sohl-title-link:hover {
-    background-color: #31D0AA;
+    background-color: #404BBF;
 
 }
 
 
 .sohl-title-link:focus {
-    background-color: #31D0AA;
+    background-color: #404BBF;
 
 }
 
 .custom {
+    
     padding-top: 120px;
     padding-bottom: 120px;
+   
     
 }
 .container-custom {
@@ -862,11 +873,14 @@ letter-spacing: 0.02em;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-items: center;
+   justify-content: center;
+   color:  #8E8F99;
 }
 
 .custom-icons{
-   margin-left: 32px;
+    fill:currentColor;
+    color:  #8E8F99;
+   
 
 }
 
@@ -876,7 +890,8 @@ letter-spacing: 0.02em;
 }
 
 .custom-icons:hover {
-    background-color: #404BBF;
+    color-icons: #404BBF;
+   
 }
 
 .custom-icons:focus {
