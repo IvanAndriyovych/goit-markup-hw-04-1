@@ -191,10 +191,17 @@ letter-spacing: 0.04em;
 box-sizing: border-box;
 height: 48px;
 text-align: center;
+display: flex;
 
 
 
 }
+
+.app:hover {
+    background-color: #4D5AE5;
+    
+
+} 
 
 
 
@@ -261,6 +268,14 @@ height: 48px;
 
 .type-portfolio {
 
+}
+
+.type-portfolio:hover {
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+background-blend-mode: soft-light, normal;
+mix-blend-mode: normal;
+background-blend-mode: soft-light;
+mix-blend-mode: normal;
 }
 
 .type-text{
@@ -424,6 +439,29 @@ font-family: 'Roboto', sans-serif;
     
 }
 
+.studio1:hover {
+    color: #404BBF ; 
+    
+border-radius: 2px;
+}
+
+.portfolio-one:hover {
+    color: #404BBF ; 
+    
+}
+
+.contacts-one:hover {
+    color: #404BBF ; 
+    
+}
+
+.mail-one:hover {
+    color: #404BBF; 
+    
+}
+
+
+
 .studio1 { color: #2E2F42;
     font-weight: 600;
     font-size: 16px;
@@ -540,6 +578,13 @@ margin: 0 auto;
 }
 
 
+.order:hover {
+    background-color: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
 .container-text-tape{
 
     
@@ -591,6 +636,10 @@ margin-left: 156px;
 
     margin-left: 112.14px;
 
+}
+
+.custom-icons-strategy:hover {
+    fill: #404BBF;
 }
 
 
@@ -764,7 +813,19 @@ margin-bottom: 8px;
 }
 
 .sohl-title-icon {
+    fill: #FFFFFF;
     
+}
+
+.sohl-title-link:hover {
+    background-color: #31D0AA;
+
+}
+
+
+.sohl-title-link:focus {
+    background-color: #31D0AA;
+
 }
 
 .custom {
@@ -812,6 +873,14 @@ letter-spacing: 0.02em;
 .custom-link:hover {
     border-color:#4D5AE5;
 
+}
+
+.custom-icons:hover {
+    background-color: #404BBF;
+}
+
+.custom-icons:focus {
+    fill: #404BBF;
 }
 
 
@@ -925,4 +994,14 @@ margin-bottom: 16px;
 }
 
 .solt-title-icon {
+}
+
+.description-solt-two:hover {
+    background-color: #31D0AA;
+
+}
+
+.description-solt-two:focus {
+    background-color: #31D0AA;
+
 }
