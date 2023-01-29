@@ -454,7 +454,18 @@ font-family: 'Roboto', sans-serif;
 border-radius: 2px;
 }
 
+.studio1:focus {
+    color: #404BBF ; 
+    
+border-radius: 2px;
+}
+
 .portfolio-one:hover {
+    color: #404BBF ; 
+    
+}
+
+.portfolio-one:focus {
     color: #404BBF ; 
     
 }
@@ -464,7 +475,17 @@ border-radius: 2px;
     
 }
 
+.contacts-one:focus {
+    color: #404BBF ; 
+    
+}
+
 .mail-one:hover {
+    color: #404BBF; 
+    
+}
+
+.mail-one:focus {
     color: #404BBF; 
     
 }
@@ -1010,12 +1031,12 @@ margin-bottom: 16px;
 .solt-title-icon {
 }
 
-.description-solt-two:hover {
+.solt-title-link:hover {
     background-color: #31D0AA;
 
 }
 
-.description-solt-two:focus {
+.solt-title-link:focus {
     background-color: #31D0AA;
 
 }
