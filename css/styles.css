@@ -655,12 +655,12 @@ display: flex;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 .custom-icons-strategy {
 
-    margin-left: 112.14px;
+   
 
 }
 
